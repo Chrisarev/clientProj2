@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    padding:0; 
+    background-color: red;
+}
+
+/*nav{
+    position:sticky;
+    top:0;
+    width:100vw;
+    height:4rem;
+    background-color: #4267B2;
+    z-index:99;
+
+}*/
+nav{
+    width:100vw;    
+    height:8vh;
+    display:flex;
+    gap:18%;
+    position:absolute;
+    align-items:center;
+    top:0;
+    z-index:99;
+    font-size:calc(1em + 1.3vmin);
+    white-space:nowrap;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropbtn{
+    border-style:none; 
+    font-size:calc(1em + 1.3vmin);
+    white-space:nowrap;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: #850E35;*/
+    color:white; 
+    background:none;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    margin-left:30vw;
+    justify-content: flex-start;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #FFC4C4;*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*.dropdown-content a:hover {background-color: #ddd;}*/
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #7e797b;;}
+
+.icon{
+    margin-left:6%;
+    
+}
+nav ul{
+    padding-right:5%;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:15%;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.content{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#firstPanel{
+    background: linear-gradient(90deg, #A9DCE3 32%, #7689DE 0);
+}
+
+/*************** MUSIC CARD ***************/
+.musicCard{
+    margin-top:8vh;
+    margin-left:80vw;
+    width:15rem; 
+    height:21.3rem; 
+    background-color:#FFFFFF;
+    border-radius:8px;
+    box-shadow: 3px 6px 5px rgba(0,0,0,30%);
+}
+
+.musicTop{
+    height:9%;
+}
+
+.musicImage{
+    width:90%;
+    height:67%;
+    margin-left:5%;
+    background-color:#A9DCE3;
+}
+
+img{
+    max-height:100%; width:100%; min-height:100%;
+}
+
+.musicDesc{
+    margin-top:3%;
+    margin-left:5%;
+    /*height:11%;*/
+    font-size: calc(0.5em + 0.8vmin);
+
+}
+
+audio{
+    height:10%;
+    width:100%;
+    background-color:#FFFFFF;
+    border-radius:8px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+background-color: #FFFFFF;
+color: #FFFFFF;
+border-radius:8px;
+
+}
+/*************** TITLE ***************/
+h1{
+    position:absolute;
+    margin-top:37vh;
+    font-size:calc(2em + 2.5vmin);
+    text-align:center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    align-self:center;
+}
+
+/*************** CHAT BOX ***************/
+
+.chatBox{
+    width:17rem; 
+    height:21.3rem; 
+    background-color: white;
+    margin-left:49px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,30%);
+
+}
+.chatTop{
+    width:100%;
+    height:13%; 
+    background-color: #7689DE;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:calc(0.9em + 1vmin);
+    color:white;
+}
+.chatTop section{
+    margin-left:30px;
+    padding-top:5px;
+}
+.chatMessages{
+    width:100%;
+    height:73%;
+}
+.chatBottom{
+    width:100%;
+    height:14%;
+    background-color:white;
+    border-top: rgb(190, 190, 190) 2px solid;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:calc(0.7em + 1vmin);
+    color:rgb(190, 190, 190);
+
+}
+
+.chatBottom section{
+    padding-left:9px;
+
+}
+
+.chatBottom input{
+    width:100%;
+    height:100%;
+    border:0;
+    border-radius:8px;
+
+}
+.chatBottom form{
+    width:100%;
+    height:100%;
+    border:0;
+    border-radius:8px;
+
+}
+#chatInput::placeholder{
+    color:rgb(120, 120, 120);
+
+}
+#sectionsUL{
+    margin-left:auto;
+    display:flex;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:20px;
+}
+
+@media (max-width:970px) {
+    nav{
+        font-size: calc(0.5em + 1.5vmin); 
+        gap:14%;
+    }
+    .icon{
+        margin-left:14%; 
+    }
+    nav #sectionsUL{
+        display:none; 
+    }
+
+    .dropdown{
+        display:inline-block; 
+    }
+    .dropbtn{
+        font-size: calc(0.5em + 1.5vmin); 
+
+    }
+    .musicCard{
+        width:10rem;
+        height:13rem;
+
+    }
+}
+
+@media (max-width:500px) {
+    .icon{
+        margin-left:6%; 
+    }
+    .musicCard{
+        margin-left:0;
+    }
+
+}
+
+@media (max-width:970px) {
+    nav{
+        height:6vh;
+    }
+    
+    .content{
+        align-items: center;
+    }
+    .musicCard{
+        margin-left:45vw;
+    }
+    .chatBox{
+        width:10rem;
+        height:14rem;
+        margin-left:0;
+        padding-left:0;
+    }
+
+}
