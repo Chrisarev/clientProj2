@@ -81,7 +81,7 @@ app.use((err,req,res,next) => {
 })
 
 ///listen on heroku specified port or 3000 in dev environment 
-const port = process.env.PORT || 3000;
-app.listen(port, () =>{ 
-    console.log(`Serving on port ${port}`)
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () =>{ 
+    console.log(`Serving on port ${PORT}`)
 })
