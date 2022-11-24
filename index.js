@@ -41,9 +41,9 @@ app.use(express.urlencoded({extended:true})) ///allows us to get req.params
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
 app.use(mongoSanitize()) ///prevents users from inputting characters that could result in mongo injection
 app.use((req, res, next) => {
-    res.append('Access-Control-Allow-Origin', ['*']);
-    res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-    res.append('Access-Control-Allow-Headers', 'Content-Type');
+    req.append('Access-Control-Allow-Origin', ['*']);
+    req.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    req.append('Access-Control-Allow-Headers', 'Content-Type');
     next();
 });
 
