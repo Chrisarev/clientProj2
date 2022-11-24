@@ -43,28 +43,28 @@ app.use(mongoSanitize()) ///prevents users from inputting characters that could 
 
 const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
 
-app.get('/', catchAsync(async (req,res) =>{
+app.get('/', async (req,res) =>{
     const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
     console.log(comments);
     res.render('home', {comments})
     /*res.render('home')*/
-}))
+})
 
 app.get('/statement', (req,res) =>{
     res.render('statement')
 })
 
-app.post('/comment', catchAsync(async (req,res) =>{
+app.post('/comment', async (req,res) =>{
     const userComment = new Comment(req.body.comment); 
     await userComment.save(); 
     console.log(userComment);
     res.redirect('/')
-}))
+})
 
-app.get('/delete', catchAsync(async (req,res) =>{
+app.get('/delete', async (req,res) =>{
     await Comment.deleteMany({}); 
     res.render('statement'); 
-}))
+})
 
 app.all('*', (req,res,next) => { ///runs for all unrecognized urls 
     next(new ExpressError('Page Not Found', 404))
