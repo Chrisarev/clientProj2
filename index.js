@@ -40,6 +40,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extended:true})) ///allows us to get req.params 
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
 app.use(mongoSanitize()) ///prevents users from inputting characters that could result in mongo injection
+app.use((req, res, next) => {
+    res.append('Access-Control-Allow-Origin', ['*']);
+    res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.append('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+});
 
 const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
 
