@@ -6,14 +6,17 @@ const express = require('express')
 const path = require('path') 
 const mongoose = require('mongoose'); ///connection between JS and mongodb
 const ejsMate = require('ejs-mate'); ///allows basic boilerplate
-const methodOverride = require('method-override') ///allows http verbs other than POST/GET in forms 
+const methodOverride = require('method-override');///allows http verbs other than POST/GET in forms 
+const Comment = require('./models/comment')
+const catchAsync = require('./utils/catchAsync')
+const ExpressError = require('./utils/ExpressError')
 
 //const catchAsync = require('./utils/catchAsync.js')
 //const ExpressError = require('./utils/ExpressError')
 const mongoSanitize = require('express-mongo-sanitize') ///for preventing mongo injection
 //const ContactInfo = require('./models/contactInfo') //require mongoose model campground.js
 
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/clientProj';
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/';
 mongoose.connect(dbUrl, {
     useNewUrlParser:true,
     useUnifiedTopology:true,
@@ -38,15 +41,35 @@ app.use(express.urlencoded({extended:true})) ///allows us to get req.params
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
 app.use(mongoSanitize()) ///prevents users from inputting characters that could result in mongo injection
 
-const secret = process.env.SECRET || 'thisshouldbeabettersecret!'
+const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
 
-app.get('/', (req,res) =>{
-    res.render('home')
+app.get('/', catchAsync(async (req,res) =>{
+    const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
+    console.log(comments);
+    res.render('home', {comments})
+    /*res.render('home')*/
+}))
+
+app.get('/statement', (req,res) =>{
+    res.render('statement')
 })
+
+app.post('/comment', catchAsync(async (req,res) =>{
+    const userComment = new Comment(req.body.comment); 
+    await userComment.save(); 
+    console.log(userComment);
+    res.redirect('/')
+}))
+
+app.get('/delete', catchAsync(async (req,res) =>{
+    await Comment.deleteMany({}); 
+    res.render('statement'); 
+}))
 
 app.all('*', (req,res,next) => { ///runs for all unrecognized urls 
     next(new ExpressError('Page Not Found', 404))
     ///passes ExpressError into err param for app.use
+
 })
 
 ///this runs if catchAsync catches error and calls next() OR if next(new ExpressError) gets called OR if validation error 

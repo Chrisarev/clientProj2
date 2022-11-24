@@ -1,7 +1,11 @@
 body{
     margin:0;
     padding:0; 
-    background-color: red;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(clientBG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*nav{
@@ -13,73 +17,6 @@ body{
     z-index:99;
 
 }*/
-nav{
-    width:100vw;    
-    height:8vh;
-    display:flex;
-    gap:18%;
-    position:absolute;
-    align-items:center;
-    top:0;
-    z-index:99;
-    font-size:calc(1em + 1.3vmin);
-    white-space:nowrap;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-}
-.dropbtn{
-    border-style:none; 
-    font-size:calc(1em + 1.3vmin);
-    white-space:nowrap;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    /*background-color: #850E35;*/
-    color:white; 
-    background:none;
-}
-
-.dropdown {
-    position: relative;
-    display: none;
-    margin-left:30vw;
-    justify-content: flex-start;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    /*background-color: #FFC4C4;*/
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-/*.dropdown-content a:hover {background-color: #ddd;}*/
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #7e797b;;}
-
-.icon{
-    margin-left:6%;
-    
-}
-nav ul{
-    padding-right:5%;
-}
-
-ul{
-    display:flex;
-    flex-direction: row;
-    gap:15%;
-    list-style: none;
-}
-a{
-    text-decoration:none;
-    color:white;
-}
 
 .content{
     width:100vw;
@@ -89,7 +26,8 @@ a{
 }
 
 #firstPanel{
-    background: linear-gradient(90deg, #A9DCE3 32%, #7689DE 0);
+   /* background: linear-gradient(90deg, #A9DCE3 32%, #7689DE 0);*/
+   /*background: url(clientBG.png) no-repeat center center fixed; */
 }
 
 /*************** MUSIC CARD ***************/
@@ -149,6 +87,7 @@ h1{
     color:white;
     font-family: 'Montserrat', sans-serif;
     align-self:center;
+    text-shadow: white 1px 1px 1px;
 }
 
 /*************** CHAT BOX ***************/
@@ -171,6 +110,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size:calc(0.9em + 1vmin);
     color:white;
+
 }
 .chatTop section{
     margin-left:30px;
@@ -179,6 +119,24 @@ h1{
 .chatMessages{
     width:100%;
     height:73%;
+    overflow:scroll;
+}
+.singleMessage{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:7px;
+}
+.chatUser{
+    font-family: 'Montserrat', sans-serif;
+    font-size:calc(0.3em + 1vmin);
+    margin-left:5px;
+    padding-right:5px;
+    min-width:45%;
+}
+
+.chatContent{
+    font-size:calc(0.3em + 1vmin);
 }
 .chatBottom{
     width:100%;
@@ -190,19 +148,15 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size:calc(0.7em + 1vmin);
     color:rgb(190, 190, 190);
-
-}
-
-.chatBottom section{
-    padding-left:9px;
-
 }
 
 .chatBottom input{
     width:100%;
-    height:100%;
+    height:50%;
     border:0;
     border-radius:8px;
+    font-size:calc(0.4em + 1vmin);
+    padding-left:3px;
 
 }
 .chatBottom form{
@@ -210,12 +164,30 @@ h1{
     height:100%;
     border:0;
     border-radius:8px;
-
+    display:flex;
+    flex-direction: column;
 }
-#chatInput::placeholder{
+.chatBottom form button{
+    display:none;
+}
+.chatBottom input::placeholder{
     color:rgb(120, 120, 120);
-
+    font-size:calc(0.4em + 1vmin);
+    padding-left:5px;
 }
+.channelHolder{
+    height:80vh;
+    width:100vw;
+}
+
+.linksHolder{
+    position:absolute;
+    bottom:1rem;
+    align-self: center;
+    display:flex;
+    gap:10px;
+}
+
 #sectionsUL{
     margin-left:auto;
     display:flex;
@@ -226,57 +198,62 @@ h1{
 }
 
 @media (max-width:970px) {
-    nav{
-        font-size: calc(0.5em + 1.5vmin); 
-        gap:14%;
-    }
-    .icon{
-        margin-left:14%; 
-    }
-    nav #sectionsUL{
-        display:none; 
-    }
-
-    .dropdown{
-        display:inline-block; 
-    }
-    .dropbtn{
-        font-size: calc(0.5em + 1.5vmin); 
-
-    }
     .musicCard{
-        width:10rem;
-        height:13rem;
+        width:11rem;
+        height:15.5rem;
+    }
 
+    .musicDesc{
+        line-height:1.2;
+        font-size: calc(0.4em + 0.8vmin);
     }
 }
 
-@media (max-width:500px) {
-    .icon{
-        margin-left:6%; 
-    }
-    .musicCard{
-        margin-left:0;
-    }
-
-}
 
 @media (max-width:970px) {
-    nav{
-        height:6vh;
+    h1{
+        margin-top:42vh;
+        font-size:calc(1.5em + 2.5vmin);
+
     }
-    
     .content{
         align-items: center;
     }
     .musicCard{
-        margin-left:45vw;
+        margin-left:auto;
+        margin-right:0.5rem;
     }
     .chatBox{
-        width:10rem;
-        height:14rem;
-        margin-left:0;
-        padding-left:0;
+        position:absolute;
+        width:11rem;
+        height:16rem;
+        /*margin-left:0;
+        padding-left:0;*/
+        align-self:flex-start;
+        margin-top:57vh;
+        margin-left:10px;
     }
-
 }
+
+    @media (max-width:680px) {
+        .musicCard{
+            width:9rem;
+            height:13rem;
+            
+        }
+        audio{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        }
+
+        audio::-webkit-media-controls-play-button,
+        audio::-webkit-media-controls-panel {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+        }
+        .chatBox{
+            width:10rem;
+            height:14rem;
+        }
+    }

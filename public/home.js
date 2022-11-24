@@ -174,4 +174,8 @@ musicImage.setAttribute('src', jsonObj[rand].songIMG)
 songName.innerText = jsonObj[rand].songTitle;
 artistName.innerText= jsonObj[rand].songArtist;
 
-
+let scrollElem = document.getElementById('chatBox')
+const scrollToBottom = (node) => {
+	node.scrollTop = node.scrollHeight;
+}
+scrollToBottom(scrollElem);
