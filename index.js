@@ -40,15 +40,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extended:true})) ///allows us to get req.params 
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
 app.use(mongoSanitize()) ///prevents users from inputting characters that could result in mongo injection
-app.use(function(req, res, next) {
+/*app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header(
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept"
     );
     next();
-  });
-  
+  });  */
 
 const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
 

@@ -159,7 +159,7 @@ let jsonObj = [
 
 
 
-let aud = document.getElementById("aud")
+/*let aud = document.getElementById("aud")*/
 let songName = document.getElementById("songTitle")
 let artistName= document.getElementById("artistName")
 let songIMG= document.getElementById("musicImage")
@@ -169,7 +169,7 @@ let rand = Math.floor(Math.random()*(jsonObj.length-1))
 
 console.log(jsonObj[rand].songArtist)
 
-aud.setAttribute('src', jsonObj[rand].songURL)
+/*aud.setAttribute('src', jsonObj[rand].songURL)*/
 musicImage.setAttribute('src', jsonObj[rand].songIMG)
 songName.innerText = jsonObj[rand].songTitle;
 artistName.innerText= jsonObj[rand].songArtist;
