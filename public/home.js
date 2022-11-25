@@ -1,165 +1,265 @@
 let jsonObj = [
-    {
-     songTitle:"Get Lit",
-     songURL:"https://drive.google.com/uc?download=view&id=1v81wt4vlPWys3FFnlcKMotgTDC9KDeV3",  
-     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
-     songArtist:"Lil Yoesph"
-    },
+    /*** NOSTALGIC ***/
     {
     songTitle:"Got Me Going",
-    songURL:"https://drive.google.com/uc?download=view&id=1pcmA8Gsg-WPI4UbNl2512bbCRNcb8SjH",  
-    songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337835/Nostalgic/Lil_Yoesph-_Got_Me_Going_pcc6qn.m4a",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Westlemania",
-    songURL:"https://drive.google.com/uc?download=view&id=1zq1zaWxEq2NpdLFImwbWMU7ONEeaLA7w",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337832/Nostalgic/Lil_Yoesph_-_Wrestlemania_v1qp6i.mp3",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Trailer Music",
-    songURL:"https://drive.google.com/uc?download=view&id=1Ta9sxPgFsHEAjDl7bQ_Pl2DJuIfnPxqu",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337848/Nostalgic/Lil_Yoesph_-_Trailer_Music_wienzg.mp3",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Stock Exchange",
-    songURL:"https://drive.google.com/uc?download=view&id=1BRem_thhioXk7keOrRG9MlWhWLx87wLN",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337812/Nostalgic/Lil_Yoesph_-_Stock_Exchange_jvo66g.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Shake It",
-    songURL:"https://drive.google.com/uc?download=view&id=1MKowphRkTSKxai8uY96LVrHz4vza6TAS",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337822/Nostalgic/Lil_Yoesph_-_Shake_It_sgebnj.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Pro Club",
-    songURL:"https://drive.google.com/uc?download=view&id=1hsRwg6w4rctsb_3Ps50A75Yn0Z0WbTP6",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337812/Nostalgic/Lil_Yoesph_-_Pro_Club_v4yfss.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"On My Mind",
-    songURL:"https://drive.google.com/uc?download=view&id=1bmbutG9OK9lKcjfgnUqqBx9frD3eqRoF",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337806/Nostalgic/Lil_Yoesph_-_On_My_Mind_zmsaec.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"No Links",
-    songURL:"https://drive.google.com/uc?download=view&id=1EyBfcTAA_1iVr59DZ9pFTcYyqSWz3Glx",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337803/Nostalgic/Lil_Yoesph_-_No_Links_hzv0vn.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Holiday",
-    songURL:"https://drive.google.com/uc?download=view&id=1Q_YizeSIyl0HV-uNaR0enIzkT3KM0KBG",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337871/Nostalgic/Lil_Yoesph_-_Holiday_qd7uqt.wav",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Fashion Week",
-    songURL:"https://drive.google.com/uc?download=view&id=14gj5F6S4nE4JWlQxhlDa-jNndcGoSwKL",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337811/Nostalgic/Lil_Yoesph_-_Fashion_Week_toguxd.mp3",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Face It",
-    songURL:"https://drive.google.com/uc?download=view&id=1WZUKNRnoqsopEfk37LOn3PNDFmA3yw5I",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337842/Nostalgic/Lil_Yoesph_-_Face_It_knekxz.mp3",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Coming Sooner",
-    songURL:"https://drive.google.com/uc?download=view&id=1T6dWtYcOEy5ovhVm_nnaMq9WrPUtZCtQ",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337798/Nostalgic/Lil_Yoesph_-_Coming_Sooner_axbjxz.m4a",  
     songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
-   { /**** WINNING ****/
+     /**** WINNING ****/
+   {
+    songTitle:"Get Lit",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338071/Winning/Lil_Yoesph_-_Get_Lit_1_lkjjyx.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
     songTitle:"Winning All Season",
-    songURL:"https://drive.google.com/uc?download=view&id=1dHkw2aAnioh9QpQ4zNIvAKYJOwhLytJ6",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1N516FqjgNAeR_A4-ssu17lLqWuVGwaS7",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338081/Winning/Lil_Yoesph_-_Winning_All_Season_gvr1kj.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Nasty",
-    songURL:"https://drive.google.com/uc?download=view&id=1Zd6zsc70OF9abxgTRGvJ6k17msa6iuSG",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1N516FqjgNAeR_A4-ssu17lLqWuVGwaS7",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338078/Winning/Lil_Yoesph_-_Nasty_edspuf.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Moved On",
-    songURL:"https://drive.google.com/uc?download=view&id=1p5cDXJq8SZE0qIvx_L7erfg7-WQlSLmz",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1N516FqjgNAeR_A4-ssu17lLqWuVGwaS7",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338075/Winning/Lil_Yoesph_-_Moved_On_cgvula.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"HOTS",
-    songURL:"https://drive.google.com/uc?download=view&id=1ICWFdiJH_Noiv5yDYCZJTp1UvCvO8F_0",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1N516FqjgNAeR_A4-ssu17lLqWuVGwaS7",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338073/Winning/Lil_Yoesph_-_HOTS_otmlne.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Flexin and Ballin",
-    songURL:"https://drive.google.com/uc?download=view&id=1eEzVo73zn8Brphd9KKTgM-96WyWsjcCa",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1N516FqjgNAeR_A4-ssu17lLqWuVGwaS7",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338084/Winning/Lil_Yoesph_-_Flexin_and_Ballin_1_yykeuf.mp3",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
     songArtist:"Lil Yoesph"
    },
    {/*** DOUBLE DOWN***/
     songTitle:"Up The Price",
-    songURL:"https://drive.google.com/uc?download=view&id=1jY9y4yTmgHfRDZt_UqPxDdzxdXh8VMlN",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337692/Double%20Down/Lil_Yoesph_-_Up_The_Price_lrsbnp.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Section 1",
-    songURL:"https://drive.google.com/uc?download=view&id=1oVQ46RPTwHvde5PFOVGAfDwecXjOVvMe",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337733/Double%20Down/Lil_Yoesph_-_More-Chances-Featuring-Mistah-Fab_ecfnbx.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph"
    },
    {
     songTitle:"Need That",
-    songURL:"https://drive.google.com/uc?download=view&id=142xkAVDnfvnRubhZpIqgIigcRxoP1Mv2",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337637/Double%20Down/Lil_Yoesph_-_Need_That_Featuring_Ari_wzbezk.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph Ft. Ari"
    },
    {
     songTitle:"More Chances",
-    songURL:"https://drive.google.com/uc?download=view&id=1GTfSgjmT78wND-Z-jiSH_srU6blC4IeB",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337733/Double%20Down/Lil_Yoesph_-_More-Chances-Featuring-Mistah-Fab_ecfnbx.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph Ft. MistahFab"
    },
    {
     songTitle:"Hardline",
-    songURL:"https://drive.google.com/uc?download=view&id=1gRIrHF3BpdTyAD1wYPl2xt-V1H349mZN",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337748/Double%20Down/Lil_Yoesph_-_Hardline_Featuring-Yung_X_Collins_arxwpl.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph Ft. Yung X & Collins"
    },
    {
     songTitle:"Fragments",
-    songURL:"https://drive.google.com/uc?download=view&id=1qr92ZQpmNMdbh-fNsQSbuFmrGZ89mMIU",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337793/Double%20Down/Lil_Yoesph_-_Fragments_Featuring_O_shea_Darrel_o91jpk.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph Ft. O'shea Darrel"
    },   
    {
     songTitle:"Chances",
-    songURL:"https://drive.google.com/uc?download=view&id=1fncn9UQewR-y52bxkF3P3IXZGsFAvcR5",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337640/Double%20Down/Lil_Yoesph_-_Chances_lrtf4i.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
     songArtist:"Lil Yoesph Ft. Yung X & Collins"
-   }, /*** Thursday Night Lights****/
+   },
+   /** Thursday Night Lights **/
    {
-    songTitle:"Fragments",
-    songURL:"https://drive.google.com/uc?download=view&id=1qr92ZQpmNMdbh-fNsQSbuFmrGZ89mMIU",  
-    songIMG:"https://drive.google.com/uc?download=view&id=1Lcc_aSFluPhkgEXbFmbkGzp9tOmaV_q8",
-    songArtist:"Lil Yoesph Ft. O'shea Darrel"
+    songTitle:"Ain't For Me",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345454/Thursday%20Night%20Lights/Lil_Yoesph_-_Ain_t_for_me_nbksox.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Bounce",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345454/Thursday%20Night%20Lights/Lil_Yoesph_-_Bounce_w7ljej.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Dare",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345494/Thursday%20Night%20Lights/Lil_Yoesph_-_Dare_Featuring_Hova_brrdqd.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph Ft. Hova"
+   },
+   {
+    songTitle:"Easy",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345409/Thursday%20Night%20Lights/Lil_Yoesph_-_Easy_Featuring_O_shea_Darrel_Natho_pig8ly.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph Ft. O'shea Darrel & Natho"
+   },
+   {
+    songTitle:"Extra",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345459/Thursday%20Night%20Lights/Lil_Yoesph_-_Extra_c5e16d.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"International",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345583/Thursday%20Night%20Lights/Lil_Yoesph_-_International_bgttcd.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Love Me Now",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345586/Thursday%20Night%20Lights/Lil_Yoesph_-_Love_Me_Now_yd6tge.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"On My Way Interlude",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345462/Thursday%20Night%20Lights/Lil_Yoesph_-_On_My_Way_Interlude_rp8tp0.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Right Now",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345598/Thursday%20Night%20Lights/Lil_Yoesph_-_Right_Now_wezztd.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Shine",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345611/Thursday%20Night%20Lights/Lil_Yoesph_-_Shine_yebbjr.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Together",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345504/Thursday%20Night%20Lights/Lil_Yoesph_-_Together_rw05ki.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Too Late Interlude",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669344866/Thursday%20Night%20Lights/Lil_Yoesph_-_Too_Late_Interlude_sli8pl.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Came Up",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669345596/Thursday%20Night%20Lights/Lil_Yoesph_Came_Up_Featuring_Oke_Junior_pio7t0.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669346101/Thursday%20Night%20Lights/IMG_2221_ymfnzq.jpg",
+    songArtist:"Lil Yoesph ft. Oke Junior"
+   },
+   { /** Season of the Spinx 2**/
+    songTitle:"First 48",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337640/Double%20Down/Lil_Yoesph_-_Chances_lrtf4i.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
+    songArtist:"Lil Yoesph ft. Icewear Vezzo"
+   },
+   {
+    songTitle:"Still Faded",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338131/Season%20Of%20The%20Sphinx%202/Lil_Yoesph_-_Still_Faded_uvhlhm.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Trackhawks",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338143/Season%20Of%20The%20Sphinx%202/Lil_Yoesph_-_Trackhawks_wfsmj2.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
+    songArtist:"Lil Yoesph"
+   },
+   {
+    songTitle:"Hadda Wack Jumper",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Lil_Yoesph-_Hadda_Wack_Jumper_unopvd.m4a",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
+    songArtist:"Lil Yoesph"
    }
+
 ]
 
 
 
-/*let aud = document.getElementById("aud")*/
+let aud = document.getElementById("aud")
 let songName = document.getElementById("songTitle")
 let artistName= document.getElementById("artistName")
 let songIMG= document.getElementById("musicImage")
@@ -169,7 +269,7 @@ let rand = Math.floor(Math.random()*(jsonObj.length-1))
 
 console.log(jsonObj[rand].songArtist)
 
-/*aud.setAttribute('src', jsonObj[rand].songURL)*/
+aud.setAttribute('src', jsonObj[rand].songURL)
 musicImage.setAttribute('src', jsonObj[rand].songIMG)
 songName.innerText = jsonObj[rand].songTitle;
 artistName.innerText= jsonObj[rand].songArtist;
