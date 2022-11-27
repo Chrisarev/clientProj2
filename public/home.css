@@ -314,20 +314,7 @@ h1{
         font-size: calc(0.4em + 0.8vmin);
     }
 }
-@media (max-width:500px){
-    .musicImage{
-        height:60%; 
-    }
-    .musicCard{
-        height:10rem;
-    }
-    audio{
-        height:8%;
-    }
-    h1{
-        margin-top:42vh;
-    }
-}
+
 @media (max-height:750px){
     .chatBox{
         width:9rem;
@@ -347,5 +334,19 @@ h1{
     .musicDesc{
         line-height:1.2;
         font-size: calc(0.4em + 0.8vmin);
+    }
+}
+@media (max-width:500px){
+    .musicImage{
+        height:60%; 
+    }
+    .musicCard{
+        height:10rem;
+    }
+    audio{
+        height:8%;
+    }
+    h1{
+        margin-top:42vh;
     }
 }
