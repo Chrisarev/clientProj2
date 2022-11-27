@@ -152,7 +152,7 @@ h1{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    font-size:calc(0.7em + 1vmin);
+    /*font-size:calc(0.7em + 1vmin);*/
     color:rgb(190, 190, 190);
 }
 
@@ -193,7 +193,7 @@ h1{
 
 .linksHolder{
     position:absolute;
-    bottom:1rem;
+    bottom:0.7rem;
     align-self: center;
     display:flex;
     gap:10px;
@@ -286,5 +286,8 @@ h1{
     }
     .chatTop{
         font-size:0.8rem;
+    }
+    .chatBottom input{
+        font-size:calc(0.3em + 1vmin);
     }
 }
