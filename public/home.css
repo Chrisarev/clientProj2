@@ -347,7 +347,9 @@ h1{
         margin-top:40vh;
     }
     .chatBox{
-        margin-top: 55vh;
+        position:absolute;
+        align-self:flex-start;
+        margin-top:54vh;
     }
     .chatBottom input{
         font-size:calc(0.3em + 0.8vmin);
