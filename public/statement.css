@@ -1,87 +1,11 @@
 body{
     margin:0;
     padding:0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(clientBG.png) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(progClientBG.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-nav{
-    width:100vw;    
-    height:8vh;
-    display:flex;
-    gap:18%;
-    position:absolute;
-    align-items:center;
-    top:0;
-    z-index:99;
-    font-size:calc(1em + 1.3vmin);
-    white-space:nowrap;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-}
-.dropbtn{
-    border-style:none; 
-    font-size:calc(1em + 1.3vmin);
-    white-space:nowrap;
-    color:white;
-    font-family: 'Montserrat', sans-serif;
-    /*background-color: #850E35;*/
-    color:white; 
-    background:none;
-}
-
-.dropdown {
-    position: relative;
-    display: none;
-    margin-left:auto;
-    margin-right:20px;
-    justify-content: flex-start;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-/*.dropdown-content a:hover {background-color: #ddd;}*/
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #7e797b;}
-
-.icon{
-    margin-left:6%;
-    
-}
-nav ul{
-    padding-right:5%;
-}
-
-ul{
-    display:flex;
-    flex-direction: row;
-    gap:15%;
-    list-style: none;
-}
-a{
-    text-decoration:none;
-    color:white;
-}
-#sectionsUL{
-    margin-left:auto;
-    display:flex;
-    justify-content: center;
-    margin-top:auto;
-    margin-bottom:auto;
-    margin-right:20px;
 }
 
 .panel{
@@ -110,24 +34,6 @@ h2{
 
 
 @media (max-width:970px) {
-    nav{
-        font-size: calc(0.5em + 1.5vmin); 
-        gap:14%;
-    }
-    .icon{
-        margin-left:14%; 
-    }
-    nav #sectionsUL{
-        display:none; 
-    }
-
-    .dropdown{
-        display:inline-block; 
-    }
-    .dropbtn{
-        font-size: calc(0.5em + 1.5vmin); 
-
-    }
     h2{
         font-size:calc(0.5em + 1vmin);
         width:80vw;
@@ -137,13 +43,8 @@ h2{
 
 @media (max-width:970px) {
 
-    nav{
-        height:6vh;
-    }
     
 }
 @media (max-width:680px) {
-    .icon{
-        margin-left:6%; 
-    }
+
 }

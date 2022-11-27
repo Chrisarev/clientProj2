@@ -49,14 +49,14 @@ nav{
 .dropdown:hover .dropbtn {background-color: #7e797b;}
 
 .icon{
-    margin-left:4%;
-    width:15rem;
-    height:15rem;
+    margin-left:3%;
+    width:11rem;
+    height:6rem;
 }
 
 .icon img{
     padding-top:25px;
-    height:15rem;
+    height:5rem;
     width:100%; 
 }
 
@@ -70,9 +70,19 @@ ul{
     gap:15%;
     list-style: none;
 }
+
 a{
     text-decoration:none;
     color:white;
+}
+
+#sectionsUL{
+    margin-left:auto;
+    display:flex;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:20px;
 }
 
 @media (max-width:970px) {
@@ -81,7 +91,14 @@ a{
         gap:14%;
     }
     .icon{
-        margin-left:5vw; 
+        width:8rem;
+        height:4rem;
+    }
+    
+    .icon img{
+        padding-top:25px;
+        height:4rem;
+        width:100%; 
     }
     nav #sectionsUL{
         display:none; 
@@ -91,7 +108,7 @@ a{
         display:inline-block; 
     }
     .dropbtn{
-        font-size: calc(0.5em + 1.5vmin); 
+        font-size: calc(0.8em + 1.5vmin); 
 
     }
 }
@@ -105,6 +122,10 @@ a{
 
 @media (max-width:680px) {
     .icon{
-        margin-left:5vw; 
+        margin-left:3vw; 
+    }
+    .dropbtn{
+        font-size: calc(1em + 1.5vmin); 
+
     }
 }
