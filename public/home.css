@@ -349,4 +349,7 @@ h1{
     .chatBox{
         margin-top: 55vh;
     }
+    .chatBottom input{
+        font-size:calc(0.3em + 0.8vmin);
+    }
 }

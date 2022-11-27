@@ -85,6 +85,7 @@ a{
     margin-right:20px;
 }
 
+
 @media (max-width:970px) {
     nav{
         font-size: calc(0.5em + 1.5vmin); 

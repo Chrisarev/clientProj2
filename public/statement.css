@@ -32,6 +32,9 @@ h2{
     width:60vw;
 }
 
+img{
+    max-height:100%; width:100%; min-height:100%;
+}
 
 @media (max-width:970px) {
     h2{
