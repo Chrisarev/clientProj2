@@ -314,10 +314,16 @@ h1{
         font-size: calc(0.4em + 0.8vmin);
     }
 }
+@media (max-width:500px){
+    .musicImage{
+        height:60%; 
+    }
+    
+}
 @media (max-height:750px){
     .chatBox{
-        width:10rem;
-        height:12rem;
+        width:9rem;
+        height:11rem;
     }
     .chatTop{
         font-size:0.8rem;
