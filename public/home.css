@@ -341,8 +341,10 @@ h1{
         height:60%; 
     }
     .musicCard{
-        height:10rem;
+        width:10rem;
+        height:12rem;
     }
+
     audio{
         height:8%;
     }
