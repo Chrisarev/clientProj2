@@ -92,21 +92,21 @@ a{
     align-items: center;
 
 }
+
 h1{
+    text-align: center;
     margin-top:20vh;
     color:white;
     font-size:calc(1.5em + 2vmin);
     font-family: 'Montserrat', sans-serif;
-
-
 }
+
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size:calc(1.1em + 1vmin);
     color:white;
     width:60vw;
 }
-
 
 
 @media (max-width:970px) {

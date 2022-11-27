@@ -13,7 +13,8 @@ const ExpressError = require('./utils/ExpressError')
 
 //const catchAsync = require('./utils/catchAsync.js')
 //const ExpressError = require('./utils/ExpressError')
-const mongoSanitize = require('express-mongo-sanitize') ///for preventing mongo injection
+const mongoSanitize = require('express-mongo-sanitize'); ///for preventing mongo injection
+const { sendStatus } = require('express/lib/response');
 //const ContactInfo = require('./models/contactInfo') //require mongoose model campground.js
 
 const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/';
@@ -66,6 +67,7 @@ app.post('/comment', async (req,res) =>{
     const userComment = new Comment(req.body.comment); 
     await userComment.save(); 
     console.log(userComment);
+
     res.redirect('/')
 })
 
