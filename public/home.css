@@ -279,3 +279,12 @@ h1{
         height:40px;
     }
 }
+@media (max-height:900px){
+    .chatBox{
+        width:9rem;
+        height:11rem;
+    }
+    .chatTop{
+        font-size:0.8rem;
+    }
+}
