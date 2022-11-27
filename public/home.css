@@ -320,9 +320,11 @@ h1{
         
     }
     .musicCard{
-        height:11rem;
+        height:10rem;
     }
-    
+    h1{
+        margin-top:42vh;
+    }
 }
 @media (max-height:750px){
     .chatBox{
