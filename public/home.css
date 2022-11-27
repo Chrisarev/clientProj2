@@ -198,6 +198,18 @@ h1{
     display:flex;
     gap:10px;
 }
+#scHolder{
+    width:60px;
+    height:60px;
+}
+#spotifyHolder{
+    width:60px;
+    height:60px;
+}
+#appleHolder{
+    width:55px;
+    height:55px;
+}
 
 @media (max-width:970px) {
     .musicCard{
@@ -253,5 +265,17 @@ h1{
     .chatBox{
         width:10rem;
         height:14rem;
+    }
+    #scHolder{
+        width:40px;
+        height:40px;
+    }
+    #spotifyHolder{
+        width:40px;
+        height:40px;
+    }
+    #appleHolder{
+        width:40px;
+        height:40px;
     }
 }
