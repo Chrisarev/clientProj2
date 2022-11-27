@@ -317,6 +317,10 @@ h1{
 @media (max-width:500px){
     .musicImage{
         height:60%; 
+        
+    }
+    .musicCard{
+        height:11rem;
     }
     
 }
