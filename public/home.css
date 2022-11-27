@@ -216,7 +216,7 @@ h1{
     height:55px;
 }
 
-@media (max-width:970px) {
+@media (max-width:1100px ) {
     .musicCard{
         width:11rem;
         height:15.5rem;
@@ -225,6 +225,16 @@ h1{
     .musicDesc{
         line-height:1.2;
         font-size: calc(0.4em + 0.8vmin);
+    }
+    .chatBox{
+        width:12rem;
+        height:15rem;
+    }
+    .chatTop{
+        font-size:0.8rem;
+    }
+    .chatBottom input{
+        font-size:calc(0.3em + 1vmin);
     }
 }
 
@@ -241,10 +251,11 @@ h1{
         margin-left:auto;
         margin-right:0.5rem;
     }
+
     .chatBox{
         position:absolute;
-        width:11rem;
-        height:16rem;
+        width:12rem;
+        height:15rem;
         /*margin-left:0;
         padding-left:0;*/
         align-self:flex-start;
@@ -267,10 +278,7 @@ h1{
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
-    .chatBox{
-        width:10rem;
-        height:14rem;
-    }
+
     #scHolder{
         width:40px;
         height:40px;
@@ -284,7 +292,8 @@ h1{
         height:40px;
     }
 }
-@media (max-height:900px){
+
+@media (max-height:600px){
     .chatBox{
         width:9rem;
         height:11rem;
@@ -294,5 +303,35 @@ h1{
     }
     .chatBottom input{
         font-size:calc(0.3em + 1vmin);
+    }
+    .musicCard{
+        width:10em;
+        height:14rem;
+    }
+
+    .musicDesc{
+        line-height:1.2;
+        font-size: calc(0.4em + 0.8vmin);
+    }
+}
+@media (max-height:750px){
+    .chatBox{
+        width:10rem;
+        height:12rem;
+    }
+    .chatTop{
+        font-size:0.8rem;
+    }
+    .chatBottom input{
+        font-size:calc(0.3em + 1vmin);
+    }
+    .musicCard{
+        width:11em;
+        height:15rem;
+    }
+
+    .musicDesc{
+        line-height:1.2;
+        font-size: calc(0.4em + 0.8vmin);
     }
 }
