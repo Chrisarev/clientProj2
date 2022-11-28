@@ -173,7 +173,6 @@ h1{
     width:100%;
     height:50%;
     border:0;
-    border-radius:8px;
     font-size:calc(0.4em + 1vmin);
     padding-left:3px;
 
@@ -370,7 +369,7 @@ iframe{
     }
 }
 
-@media (max-height:750px){
+@media (max-height:700px){
     .chatBox{
         width:9rem;
         height:11rem;
