@@ -46,7 +46,7 @@ img{
 
 @media (max-width:970px) {
     h2{
-        font-size:calc(0.5em + 1vmin);
+        font-size:calc(0.7em + 1vmin);
         width:80vw;
     }
 
