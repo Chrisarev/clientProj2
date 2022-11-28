@@ -1,11 +1,19 @@
-body{
-    margin:0;
-    padding:0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(progClientBG.jpeg) no-repeat center center fixed;
+.back{
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(progClientBG.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position:fixed;
+    top:0; 
+    z-index:-1;
+}
+
+body{
+    margin:0;
+    padding:0;
 }
 
 .panel{
