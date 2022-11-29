@@ -399,7 +399,7 @@ iframe{
         height:60%; 
     }
     .musicCard{
-        width:10rem;
+        width:11rem;
         height:12rem;
     }
 
@@ -430,20 +430,4 @@ iframe{
         margin-top:15vh;
     }
     
-    audio::-webkit-media-controls-panel {
-        display:flex !important;
-    }
-      
-      /* Removes the timeline */
-      audio::-webkit-media-controls-timeline {
-        display:flex !important;
-      }
-      
-      /* Removes the time stamp */
-      audio::-webkit-media-controls-current-time-display {
-        display:flex !important;
-      }
-      audio::-webkit-media-controls-time-remaining-display {
-        display:flex !important;
-      }
 }
