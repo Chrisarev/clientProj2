@@ -542,7 +542,9 @@ iframe{
     }
 }
 @media (max-width:500px){
-
+    h1{
+        margin-top:36.4vh;
+    }
     #channelLink{
         margin-top:12vh;
     }
