@@ -400,12 +400,13 @@ iframe{
     }
     .musicCard{
         width:10rem;
-        height:13rem;
+        height:12rem;
     }
 
     audio{
         height:8%;
     }
+
 
     h1{
         margin-top:35.4vh;
@@ -427,5 +428,9 @@ iframe{
 
     #channelLink{
         margin-top:15vh;
+    }
+    
+    audio::-webkit-media-controls-panel {
+        display:flex !important;
     }
 }
