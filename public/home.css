@@ -401,6 +401,7 @@ iframe{
         width:82%;
         margin-left:9%;
     }
+
     .musicCard{
         /*width:10rem;*/
         width:12rem;
@@ -409,6 +410,9 @@ iframe{
     }
     .musicTop{
         height:6%;
+    }
+    .musicDesc{
+        margin-left:9%;
     }
     /*audio{
         height:8%;
