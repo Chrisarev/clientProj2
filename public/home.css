@@ -399,8 +399,10 @@ iframe{
         height:60%; 
     }
     .musicCard{
-        width:11.8rem;
-        height:12rem;
+        /*width:10rem;*/
+        width:12rem;
+        height:13rem;
+       /* height:12rem;*/
     }
 
     audio{
