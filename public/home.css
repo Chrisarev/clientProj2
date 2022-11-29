@@ -398,6 +398,8 @@ iframe{
     .musicImage{
         /*height:60%; */
         height:63%; 
+        width:86%;
+        margin-left:7%;
     }
     .musicCard{
         /*width:10rem;*/
