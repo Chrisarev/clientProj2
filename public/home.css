@@ -75,7 +75,7 @@ img{
     margin-left:5%;
     /*height:11%;*/
     font-size: calc(0.5em + 0.8vmin);
-
+    font-weight:500;
 }
 
 audio{
