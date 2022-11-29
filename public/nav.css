@@ -67,10 +67,10 @@ nav ul{
 ul{
     display:flex;
     flex-direction: row;
-    gap:15%;
     list-style: none;
 }
 
+ul li 
 a{
     text-decoration:none;
     color:white;
@@ -85,7 +85,9 @@ a{
     margin-right:20px;
 
 }
-
+#firstLi {
+    margin-right:15%;
+}
 #sectionsUL li:hover{
     color:#1B7FA7;
 }
