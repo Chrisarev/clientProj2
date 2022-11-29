@@ -98,6 +98,7 @@ border-radius:8px;
 
 }
 #prevButton{
+    font-family: 'Montserrat', sans-serif;
     border:none;
     background-color:#FFF;
     border-radius:8px;
@@ -107,6 +108,7 @@ border-radius:8px;
 }
 
 #nextButton{
+    font-family: 'Montserrat', sans-serif;
     border:none; 
     background-color:#FFF;
     border-radius:8px;

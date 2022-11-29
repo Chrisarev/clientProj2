@@ -80,10 +80,11 @@ app.post('/comment', async (req,res) =>{
     res.redirect('/')
 })
 
-app.get('/delete', async (req,res) =>{
+/*app.get('/delete', async (req,res) =>{
     await Comment.deleteMany({}); 
     res.render('statement'); 
 })
+*/
 
 app.get('/delCom', async (req,res) =>{
     const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
