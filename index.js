@@ -75,6 +75,14 @@ app.get('/delete', async (req,res) =>{
     await Comment.deleteMany({}); 
     res.render('statement'); 
 })
+app.get('/delCom', async (req,res) =>{
+    const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
+    res.render('delCom', {comments})
+})
+app.post('/deleteComment', async( req,res) =>{
+    
+    res.redirect('/home')
+})
 
 app.all('*', (req,res,next) => { ///runs for all unrecognized urls 
     next(new ExpressError('Page Not Found', 404))

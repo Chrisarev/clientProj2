@@ -57,8 +57,11 @@ body{
 
 .musicTop{
     height:9%;
+    /*display:flex;
+    justify-content: space-between;*/
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:3rem;
 }
 
 .musicImage{
