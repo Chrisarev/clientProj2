@@ -37,6 +37,13 @@ app.engine('ejs', ejsMate); ///allows basic boilerplate
 app.set('view engine', 'ejs');  ///sets view engine to ejs 
 app.set('views', path.join(__dirname, 'views')) ///so we can run app.js from outside of yelpcamp folder 
 
+app.use((req, res, next) => {
+    if (req.header('x-forwarded-proto') !== 'https') {
+      res.redirect(`https://${req.header('host')}${req.url}`)
+    } else {
+      next();
+    }
+  });
 app.use(express.static(path.join(__dirname, 'public'))); 
 app.use(express.urlencoded({extended:true})) ///allows us to get req.params 
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
@@ -75,10 +82,12 @@ app.get('/delete', async (req,res) =>{
     await Comment.deleteMany({}); 
     res.render('statement'); 
 })
+
 app.get('/delCom', async (req,res) =>{
     const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
     res.render('delCom', {comments})
 })
+
 app.post('/deleteComment', async( req,res) =>{
     
     res.redirect('/home')
