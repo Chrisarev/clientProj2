@@ -279,3 +279,14 @@ const scrollToBottom = (node) => {
 	node.scrollTop = node.scrollHeight;
 }
 scrollToBottom(scrollElem);
+
+aud.addEventListener('ended',function(){
+  aud.pause();
+  let rand = Math.floor(Math.random()*(jsonObj.length-1));
+  aud.src = jsonObj[rand].songURL;
+  musicImage.setAttribute('src', jsonObj[rand].songIMG)
+  songName.innerText = jsonObj[rand].songTitle;
+  artistName.innerText= jsonObj[rand].songArtist;
+  aud.load();
+  aud.play();
+});
