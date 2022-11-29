@@ -263,11 +263,12 @@ let aud = document.getElementById("aud")
 let songName = document.getElementById("songTitle")
 let artistName= document.getElementById("artistName")
 let songIMG= document.getElementById("musicImage")
+let prevButton = document.getElementById("prevButton")
+let nextButton = document.getElementById("nextButton")
 
 let rand = Math.floor(Math.random()*(jsonObj.length-1))
-
-
-console.log(jsonObj[rand].songArtist)
+const playedArray = [rand]; 
+let currCount = 0; 
 
 aud.setAttribute('src', jsonObj[rand].songURL)
 musicImage.setAttribute('src', jsonObj[rand].songIMG)
@@ -281,8 +282,14 @@ const scrollToBottom = (node) => {
 scrollToBottom(scrollElem);
 
 aud.addEventListener('ended',function(){
-  aud.pause();
   let rand = Math.floor(Math.random()*(jsonObj.length-1));
+  while(rand==playedArray[currCount]){
+    rand = Math.floor(Math.random()*(jsonObj.length-1));
+  }
+  playedArray.push(rand); 
+  currCount++; 
+  console.log(playedArray); 
+  aud.pause();
   aud.src = jsonObj[rand].songURL;
   musicImage.setAttribute('src', jsonObj[rand].songIMG)
   songName.innerText = jsonObj[rand].songTitle;
@@ -290,3 +297,45 @@ aud.addEventListener('ended',function(){
   aud.load();
   aud.play();
 });
+
+prevButton.addEventListener('click', function(){
+
+  if (currCount != 0){
+    currCount--; 
+  }
+
+  aud.pause();
+  aud.src = jsonObj[playedArray[currCount]].songURL;
+  musicImage.setAttribute('src', jsonObj[playedArray[currCount]].songIMG)
+  songName.innerText = jsonObj[playedArray[currCount]].songTitle;
+  artistName.innerText= jsonObj[playedArray[currCount]].songArtist;
+  aud.load();
+  aud.play();
+})
+
+nextButton.addEventListener('click', function() {
+  if(currCount< playedArray.length-1){
+    currCount++; 
+    aud.pause();
+    aud.src = jsonObj[playedArray[currCount]].songURL;
+    musicImage.setAttribute('src', jsonObj[playedArray[currCount]].songIMG)
+    songName.innerText = jsonObj[playedArray[currCount]].songTitle;
+    artistName.innerText= jsonObj[playedArray[currCount]].songArtist;
+    aud.load();
+    aud.play();
+  }else{
+    let rand = Math.floor(Math.random()*(jsonObj.length-1));
+    while(rand==playedArray[currCount]){
+      rand = Math.floor(Math.random()*(jsonObj.length-1));
+    }
+    playedArray.push(rand); 
+    currCount++; 
+    aud.pause();
+    aud.src = jsonObj[rand].songURL;
+    musicImage.setAttribute('src', jsonObj[rand].songIMG)
+    songName.innerText = jsonObj[rand].songTitle;
+    artistName.innerText= jsonObj[rand].songArtist;
+    aud.load();
+    aud.play();
+  }
+})
