@@ -401,10 +401,12 @@ iframe{
     .musicCard{
         /*width:10rem;*/
         width:12rem;
-        height:13rem;
+        height:12rem;
        /* height:12rem;*/
     }
-
+    .musicTop{
+        height:6%;
+    }
     audio{
         height:8%;
     }
