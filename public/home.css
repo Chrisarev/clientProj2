@@ -215,7 +215,10 @@ h1{
     display:none;
 }
 */
-
+#chatInput{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 .chatBottom input::placeholder{
     color:rgb(120, 120, 120);
     font-size:calc(0.4em + 1vmin);

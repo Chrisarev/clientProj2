@@ -87,6 +87,9 @@ a{
 #sectionsUL li:hover{
     color:#1B7FA7;
 }
+li a:hover{
+    color:#1B7FA7;
+}
 
 
 @media (max-width:970px) {
