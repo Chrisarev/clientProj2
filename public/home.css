@@ -259,6 +259,7 @@ h1{
     width:100%;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 #channelLink section{
