@@ -37,13 +37,15 @@ app.engine('ejs', ejsMate); ///allows basic boilerplate
 app.set('view engine', 'ejs');  ///sets view engine to ejs 
 app.set('views', path.join(__dirname, 'views')) ///so we can run app.js from outside of yelpcamp folder 
 
+/*** HTTP -> HTTPS IN ORDER TO USE SSL CERTIFICATE ***/
 app.use((req, res, next) => {
     if (req.header('x-forwarded-proto') !== 'https') {
       res.redirect(`https://${req.header('host')}${req.url}`)
     } else {
       next();
     }
-  });
+});
+
 app.use(express.static(path.join(__dirname, 'public'))); 
 app.use(express.urlencoded({extended:true})) ///allows us to get req.params 
 app.use(methodOverride('_method')) ///allows requests other than get/post thru forms 
