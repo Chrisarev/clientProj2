@@ -498,7 +498,6 @@ iframe{
     }
 }
 
-
 /*@media (max-width:500px){*/
     @media (max-width:700px){
     .musicImage{
@@ -549,4 +548,9 @@ iframe{
         margin-top:12vh;
     }
     
+}
+@media (max-height:500px) {
+    h1{
+        margin-top:37.4vh;
+    }
 }
