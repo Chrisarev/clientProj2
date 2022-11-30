@@ -3,7 +3,7 @@ let jsonObj = [
     {
     songTitle:"Got Me Going",
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337835/Nostalgic/Lil_Yoesph-_Got_Me_Going_pcc6qn.m4a",  
-    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338052/Winning/lil-yoesph-winning-front-cover_1_t0bbdb.jpg",
+    songIMG:"https://res.cloudinary.com/dgz6d6j5h/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1668582012/F3A31966-FA00-4E12-A2AE-B3CA3F1085FB_g6scew.gif",
     songArtist:"Lil Yoesph"
    },
    {
@@ -131,7 +131,7 @@ let jsonObj = [
     songTitle:"More Chances",
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337733/Double%20Down/Lil_Yoesph_-_More-Chances-Featuring-Mistah-Fab_ecfnbx.wav",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
-    songArtist:"Lil Yoesph Ft. MistahFab"
+    songArtist:"Lil Yoesph Ft. Mistah Fab"
    },
    {
     songTitle:"Hardline",
@@ -149,7 +149,7 @@ let jsonObj = [
     songTitle:"Chances",
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337640/Double%20Down/Lil_Yoesph_-_Chances_lrtf4i.wav",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669337498/Double%20Down/IMG_0193_vf5fqk.jpg",
-    songArtist:"Lil Yoesph Ft. Yung X & Collins"
+    songArtist:"Lil Yoesph"
    },
    /** Thursday Night Lights **/
    {
@@ -232,7 +232,7 @@ let jsonObj = [
    },
    { /** Season of the Spinx 2**/
     songTitle:"First 48",
-    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669337640/Double%20Down/Lil_Yoesph_-_Chances_lrtf4i.wav",  
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338172/Season%20Of%20The%20Sphinx%202/Lil_Yoesph_-_First_48_Featuring_Icewear_Vezzo_xozswr.wav",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
     songArtist:"Lil Yoesph ft. Icewear Vezzo"
    },
@@ -243,7 +243,7 @@ let jsonObj = [
     songArtist:"Lil Yoesph"
    },
    {
-    songTitle:"Trackhawks",
+    songTitle:"Hellcat",
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338143/Season%20Of%20The%20Sphinx%202/Lil_Yoesph_-_Trackhawks_wfsmj2.wav",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
     songArtist:"Lil Yoesph"
