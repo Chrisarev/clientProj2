@@ -132,7 +132,7 @@ h1{
     transition: all 0.3s linear; 
 }
 h1:hover{
-    text-shadow: white 3px 3px;
+    text-shadow: white 2px 2px;
     transform: translateY(-5px) scale(1.05)
 
 }
