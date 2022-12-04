@@ -129,7 +129,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     align-self:center;
     text-shadow: white 1px 1px 1px;
-    transition: all 0.5s linear; 
+    transition: all 0.3s linear; 
 }
 h1:hover{
     text-shadow: white 3px 3px;
