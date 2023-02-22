@@ -398,7 +398,7 @@ a{
         height:60%;
     }
 }
-
+/*
 @media(max-width:700px) {
     .chatBox{
         width:10rem; 
@@ -408,11 +408,4 @@ a{
         width:10rem; 
         height:15rem; 
     }
-}
-@media (max-height:680px) {
-    h1{
-        display:none;
-        margin-top:14vh;
-        font-size:calc(1.7em + 1vmin)
-    }
-}
+}*/
