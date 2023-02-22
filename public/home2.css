@@ -21,6 +21,7 @@ html{
 body{
     margin:0;
     padding:0; 
+    overflow-x:hidden;
 }
 
 /*nav{
@@ -38,18 +39,16 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow:hidden;
 }
-
-#firstPanel{
-   /* background: linear-gradient(90deg, #A9DCE3 32%, #7689DE 0);*/
-   /*background: url(clientBG.png) no-repeat center center fixed; */
+.contentHolder{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5rem;
 }
-
 /*************** MUSIC CARD ***************/
 .musicCard{
-    margin-top:8vh;
-    margin-left:80vw;
     width:15rem; 
     height:21.3rem; 
     background-color:#FFFFFF;
@@ -121,28 +120,31 @@ border-radius:8px;
 }
 /*************** TITLE ***************/
 h1{
-    position:absolute;
-    margin-top:37vh;
+    margin-top:17vh;
     font-size:calc(2em + 2.5vmin);
     text-align:center;
     color:white;
     font-family: 'Montserrat', sans-serif;
-    align-self:center;
     text-shadow: white 1px 1px 1px;
     transition: all 0.3s linear; 
+    cursor:default;
 }
+
 h1:hover{
     text-shadow: white 2px 2px;
     transform: translateY(-5px) scale(1.05)
 
 }
 /*************** CHAT BOX ***************/
+.flexGroup{
+    display:flex;
+    gap:1rem;
+}
 
 .chatBox{
     width:17rem; 
     height:21.3rem; 
     background-color: white;
-    margin-left:49px;
     border-radius: 8px;
     box-shadow: 1px 2px 2px rgba(0,0,0,30%);
 }
@@ -167,7 +169,9 @@ h1:hover{
 .chatMessages{
     width:100%;
     height:73%;
-    overflow:scroll;
+    overflow-y:scroll;
+    border:none;
+
 }
 
 .singleMessage{
@@ -237,12 +241,43 @@ h1:hover{
 }
 
 .linksHolder{
-    position:absolute;
-    bottom:0.7rem;
     align-self: center;
     display:flex;
+    flex-direction: column;
     gap:10px;
 }
+
+.mobileContainer{
+    display:none;
+    justify-content: center;
+    width:100%;
+}
+
+.mobileLinksHolder{
+    margin-top:6vh;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.mobileLinksHolder h2{
+    display:block;
+    text-align: center;
+    color:white; 
+    font-weight:600;
+    width:100%;
+    height:4rem;
+}
+#yeosoo{
+    line-height:4rem;
+}
+.triangleFormatter{
+    display:flex;
+    flex-direction: row;
+}
+
 #scHolder{
     width:60px;
     height:60px;
@@ -328,175 +363,51 @@ a{
 #appleHolder:hover{
     transform: translateY(-5px) scale(1.05)
 }
-@media (max-width:1100px ) {
-    .musicCard{
-        width:11rem;
-        height:15.5rem;
+
+@media (max-width:815px){
+    .content h1{display:none;}
+    .contentHolder{
+        margin-top:25vh;
+    }
+    .linksHolder{
+        display:none;
+    }
+    .mobileContainer{
+        display:flex;
+        gap:2rem;
     }
 
-    .musicDesc{
-        line-height:1.2;
-        font-size: calc(0.4em + 0.8vmin);
+    #channelLink section{
+        font-size:calc(1.5em + 1vmin);
+        
     }
     .chatBox{
-        width:12rem;
-        height:15rem;
-    }
-    .chatTop{
-        font-size:0.8rem;
-    }
-    .chatBottom input{
-        font-size:calc(0.3em + 1vmin);
-    }
-}
-
-@media (max-width:970px) {
-    h1{
-        margin-top:42vh;
-        font-size:calc(1.5em + 2.5vmin);
-
-    }
-    .content{
-        align-items: center;
+        width: 12rem; 
+        height:16rem; 
     }
     .musicCard{
-        margin-left:auto;
-        margin-right:0.5rem;
+        width:12rem; 
+        height:16rem; 
     }
-
-    .chatBox{
-        position:absolute;
-        width:12rem;
-        height:15rem;
-        /*margin-left:0;
-        padding-left:0;*/
-        align-self:flex-start;
-        margin-top:57vh;
-        margin-left:10px;
-    }
-}
-
-@media (max-width:680px) {
-    .musicCard{
-        width:9rem;
-        height:13rem;    
-    }
-    audio{
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-    audio::-webkit-media-controls-play-button,
-    audio::-webkit-media-controls-panel {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-
-    #scHolder{
-        width:40px;
-        height:40px;
-    }
-    #spotifyHolder{
-        width:40px;
-        height:40px;
-    }
-    #appleHolder{
-        width:40px;
-        height:40px;
-    }
-}
-
-@media (max-height:600px){
-    .chatBox{
-        width:9rem;
-        height:11rem;
-    }
-    .chatTop{
-        font-size:0.8rem;
-    }
-    .chatBottom input{
-        font-size:calc(0.3em + 1vmin);
-    }
-    .musicCard{
-        width:10em;
-        height:14rem;
-    }
-
-    .musicDesc{
-        line-height:1.2;
-        font-size: calc(0.4em + 0.8vmin);
-    }
-}
-
-@media (max-height:700px){
-    .chatBox{
-        width:9rem;
-        height:11rem;
-    }
-    .chatTop{
-        font-size:0.8rem;
-    }
-    .chatBottom input{
-        font-size:calc(0.3em + 1vmin);
-    }
-    .musicCard{
-        width:11em;
-        height:15rem;
-    }
-
-    .musicDesc{
-        line-height:1.2;
-        font-size: calc(0.4em + 0.8vmin);
-    }
-}
-
-/*@media (max-width:500px){*/
-    @media (max-width:700px){
     .musicImage{
-        /*height:60%; */
-        height:63%; 
-        width:82%;
-        margin-left:9%;
-    }
-
-    .musicCard{
-        /*width:10rem;*/
-        width:12rem;
-        height:12rem;
-       /* height:12rem;*/
-    }
-    .musicTop{
-        height:9%;
-    }
-    .musicDesc{
-        margin-left:9%;
-    }
-    /*audio{
-        height:8%;
-    }*/
-
-
-    h1{
-        margin-top:35.4vh;
-    }
-    .chatBox{
-        position:absolute;
-        align-self:flex-start;
-        margin-top:50vh;
-    }
-    .chatBottom input{
-        font-size:calc(0.3em + 0.8vmin);
-    }
-    .vidHolder{
-        width:20rem;
-        height:13rem;
+        height:60%;
     }
 }
-@media (max-width:500px){
+
+@media(max-width:700px) {
+    .chatBox{
+        width:10rem; 
+        height:15rem; 
+    }
+    .musicCard{
+        width:10rem; 
+        height:15rem; 
+    }
+}
+@media (max-height:680px) {
     h1{
-        margin-top:37.4vh;
+        display:none;
+        margin-top:14vh;
+        font-size:calc(1.7em + 1vmin)
     }
-    #channelLink{
-        margin-top:12vh;
-    }
-    
 }

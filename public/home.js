@@ -253,8 +253,69 @@ let jsonObj = [
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Lil_Yoesph-_Hadda_Wack_Jumper_unopvd.m4a",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1669338089/Season%20Of%20The%20Sphinx%202/Unknown_swvij4.jpg",
     songArtist:"Lil Yoesph"
-   }
+   },
+   {/** SONGS WITH MARCH MADNESS **/
+   songTitle:"Me Myself An I",
+   songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677034815/marchMadnness/Me_Myself_An_I_myntyw.wav",  
+   songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+   songArtist:"March Madnness"
+   },
+  {
+    songTitle:"Big Steppa",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677034840/marchMadnness/Big_Steppa_u7a7ut.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Headcrack",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035006/marchMadnness/Headcrack_ey1mfw.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"How Can I",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035040/marchMadnness/How_Can_I_fzr6j1.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Man Up",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035071/marchMadnness/Man_Up_numur7.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Money Madnness",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035099/marchMadnness/Money_Madnness_wafgx6.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"My Apologies",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035144/marchMadnness/My_Apologies_mbuyl7.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Real Life",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035244/marchMadnness/Real_Life_jfm2ke.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
 
+  {
+    songTitle:"Shooter Curse",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035277/marchMadnness/Shooter_Curse_chczcv.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  },
+
+  {
+    songTitle:"Voices In My Head",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035300/marchMadnness/Voices_In_My_Head_sqr5xn.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
+    songArtist:"March Madnness"
+  }
 ]
 
 

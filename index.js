@@ -64,7 +64,7 @@ const secret = process.env.SECRET || 'thisshouldbeabettersecret!';
 app.get('/', async (req,res) =>{
     const comments = await Comment.find().sort({ _id: -1 }).limit(10); ///gets 10 latest posts
     console.log(comments);
-    res.render('home', {comments})
+    res.render('home2', {comments})
     /*res.render('home')*/
 })
 
@@ -76,7 +76,6 @@ app.post('/comment', async (req,res) =>{
     const userComment = new Comment(req.body.comment); 
     await userComment.save(); 
     console.log(userComment);
-
     res.redirect('/')
 })
 
