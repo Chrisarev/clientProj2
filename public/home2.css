@@ -401,11 +401,11 @@ a{
 
 @media(max-width:700px) {
     .chatBox{
-        width:10rem; 
+        width:12rem; 
         height:15.5rem; 
     }
     .musicCard{
-        width:10rem; 
+        width:12rem; 
         height:15.5rem; 
     }
 }
