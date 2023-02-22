@@ -402,10 +402,10 @@ a{
 @media(max-width:700px) {
     .chatBox{
         width:12rem; 
-        height:15.5rem; 
+        height:15.2rem; 
     }
     .musicCard{
         width:12rem; 
-        height:15.5rem; 
+        height:15.2rem; 
     }
 }
