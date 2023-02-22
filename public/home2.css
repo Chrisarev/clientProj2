@@ -2,7 +2,7 @@
 html{
     margin:0;
     padding:0;
-
+    overflow-x:hidden;
 }
 
 .back{
@@ -47,6 +47,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap:5rem;
+    overflow-x:hidden;
 }
 /*************** MUSIC CARD ***************/
 .musicCard{
@@ -383,11 +384,11 @@ a{
         
     }
     .chatBox{
-        width: 12rem; 
+        width: 13rem; 
         height:16rem; 
     }
     .musicCard{
-        width:12rem; 
+        width:13rem; 
         height:16rem; 
     }
     .musicImage{
