@@ -367,7 +367,7 @@ a{
 @media (max-width:815px){
     .content h1{display:none;}
     .contentHolder{
-        margin-top:25vh;
+        margin-top:20vh;
     }
     .linksHolder{
         display:none;
