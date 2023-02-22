@@ -397,15 +397,18 @@ a{
     .musicImage{
         height:60%;
     }
+    .flexGroup{
+        gap:10px;
+    }
 }
 
 @media(max-width:700px) {
     .chatBox{
-        width:11rem; 
+        width:12rem; 
         height:15.5rem; 
     }
     .musicCard{
-        width:11rem; 
+        width:12rem; 
         height:15.5rem; 
     }
 }
