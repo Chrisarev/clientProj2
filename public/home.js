@@ -309,13 +309,73 @@ let jsonObj = [
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
     songArtist:"March Madnness"
   },
-
   {
     songTitle:"Voices In My Head",
     songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1677035300/marchMadnness/Voices_In_My_Head_sqr5xn.wav",  
     songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1677034722/marchMadnness/unnamed_yslpi3.jpg",
     songArtist:"March Madnness"
-  }
+  },
+  /** Who Hustle Harder**/
+  {
+    songTitle:"Come Up",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943731/Who%20Hustle%20Harder/Come_Up_wuv5vt.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"I Dont Need Rap",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943761/Who%20Hustle%20Harder/I_Dont_Need_Rap_q7l6sn.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"I Love You",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943789/Who%20Hustle%20Harder/I_Love_You_pcn31o.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"I'm The Best",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943814/Who%20Hustle%20Harder/Im_The_Best_e0af0n.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Mad Downs",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943874/Who%20Hustle%20Harder/Mad_Downs_lrhshm.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Midnight Madnness",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943896/Who%20Hustle%20Harder/Midnight_Madnness_vtgpqn.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Real Life pt.2",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943955/Who%20Hustle%20Harder/Real_Life_pt._2_nkr08g.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Real Paper Chaser",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679943968/Who%20Hustle%20Harder/Real_Paper_Chaser_kglfk6.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Thugging In The Dark",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679944004/Who%20Hustle%20Harder/Thugging_In_The_Dark_zjphnp.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness"
+  },
+  {
+    songTitle:"Too Strong",
+    songURL:"https://res.cloudinary.com/dztnneglu/video/upload/v1679944028/Who%20Hustle%20Harder/Too_Strong_Ft_Zebbman_Buku_zlbasj.wav",  
+    songIMG:"https://res.cloudinary.com/dztnneglu/image/upload/v1679944039/Who%20Hustle%20Harder/vyd_fa8nur.jpg",
+    songArtist:"March Madnness ft. Zebbman Buku"
+  },
 ]
 
 

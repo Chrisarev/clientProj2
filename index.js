@@ -98,7 +98,6 @@ app.post('/deleteComment', async( req,res) =>{
 app.all('*', (req,res,next) => { ///runs for all unrecognized urls 
     next(new ExpressError('Page Not Found', 404))
     ///passes ExpressError into err param for app.use
-
 })
 
 ///this runs if catchAsync catches error and calls next() OR if next(new ExpressError) gets called OR if validation error 
