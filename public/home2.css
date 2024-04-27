@@ -383,7 +383,7 @@ a{
     }
 
     #channelLink section{
-        font-size:calc(1.5em + 1vmin);  
+        font-size:calc(1.2em + 1vmin);  
     }
     .chatBox{
         width: 13rem; 
