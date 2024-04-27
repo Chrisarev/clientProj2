@@ -312,6 +312,7 @@ h1:hover{
     font-size:calc(1.8em + 2vmin);
     text-decoration: none !important;
     transition: all 0.1s linear;
+    white-space:nowrap; 
 }
 
 #ytHolder{
@@ -382,8 +383,7 @@ a{
     }
 
     #channelLink section{
-        font-size:calc(1.5em + 1vmin);
-        
+        font-size:calc(1.5em + 1vmin);  
     }
     .chatBox{
         width: 13rem; 
